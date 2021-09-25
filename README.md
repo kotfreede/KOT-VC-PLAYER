@@ -1,6 +1,6 @@
 # Telegram VCVideoPlayBot
 
-- An Telegram Bot By [@ZauteKm](https://t.me/ZauteKm) To Stream Videos in Telegram Voice Chat.
+- An Telegram Bot By [@KOT_FREE_DE_LA_HOYA_OFF](https://t.me/KOT_FREE_DE_LA_HOYA_OFF) To Stream Videos in Telegram Voice Chat.
 
 ---
 
