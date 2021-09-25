@@ -30,7 +30,7 @@ async def start(client, message):
     buttons = [
         [
             InlineKeyboardButton('📢 Channel', url='https://t.me/KOT_BOTS'),
-            InlineKeyboardButton('Source 🔥', url='https://github.com/ZauteKm/vcVideoPlayer')
+            InlineKeyboardButton('Source 🔥', url='https://github.com/kotfreede/KOT-VC-PLAYER')
         ],
         [
             InlineKeyboardButton('👨🏼‍🦯 Help', callback_data='help'),
@@ -46,7 +46,7 @@ async def show_help(client, message):
     buttons = [
         [
             InlineKeyboardButton('📢 Channel', url='https://t.me/KOT_BOTS'),
-            InlineKeyboardButton('Source 🔥', url='https://github.com/ZauteKm/vcVideoPlayer'),
+            InlineKeyboardButton('Source 🔥', url='https://github.com/kotfreede/KOT-VC-PLAYER'),
         ]
         ]
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -60,7 +60,7 @@ async def show_help(client, message):
 async def repo_(client, message):
     buttons = [
         [
-            InlineKeyboardButton('🔥 Repository', url='https://github.com/ZauteKm/vcVideoPlayer'),
+            InlineKeyboardButton('🔥 Repository', url='https://github.com/kotfreede/KOT-VC-PLAYER'),
             InlineKeyboardButton('Channel 📢', url='https://t.me/KOT_BOTS'),
             
         ],
