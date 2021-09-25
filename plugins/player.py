@@ -225,8 +225,8 @@ allcmd = ["play", "player", f"play@{Config.BOT_USERNAME}", f"player@{Config.BOT_
 async def not_chat(_, m: Message):
     buttons = [
         [
-            InlineKeyboardButton('⚡️Make Own Bot', url='https://github.com/ZauteKm/vcVideoPlayer'),
-            InlineKeyboardButton('🧩 Join Here', url='https://t.me/tgbotsproject'),
+            InlineKeyboardButton('⚡️Make Own Bot', url='https://github.com/kotfreede/KOT-VC-PLAYER'),
+            InlineKeyboardButton('🧩 Join Here', url='https://t.me/KOT_BOTS'),
         ]
         ]
     await m.reply("<b>You can't use this bot in this group, for that you have to make your own bot from the [SOURCE CODE](https://github.com/Zautekm/VCVideoPlayBot) below.</b>", disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(buttons))
