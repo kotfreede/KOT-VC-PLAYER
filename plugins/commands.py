@@ -29,7 +29,7 @@ admin_filter=filters.create(is_admin)
 async def start(client, message):
     buttons = [
         [
-            InlineKeyboardButton('📢 Channel', url='https://t.me/ZauteKm'),
+            InlineKeyboardButton('📢 Channel', url='https://t.me/KOT_BOTS'),
             InlineKeyboardButton('Source 🔥', url='https://github.com/ZauteKm/vcVideoPlayer')
         ],
         [
@@ -45,7 +45,7 @@ async def start(client, message):
 async def show_help(client, message):
     buttons = [
         [
-            InlineKeyboardButton('📢 Channel', url='https://t.me/tgbotsproject'),
+            InlineKeyboardButton('📢 Channel', url='https://t.me/KOT_BOTS'),
             InlineKeyboardButton('Source 🔥', url='https://github.com/ZauteKm/vcVideoPlayer'),
         ]
         ]
@@ -61,7 +61,7 @@ async def repo_(client, message):
     buttons = [
         [
             InlineKeyboardButton('🔥 Repository', url='https://github.com/ZauteKm/vcVideoPlayer'),
-            InlineKeyboardButton('Channel 📢', url='https://t.me/ZauteKm'),
+            InlineKeyboardButton('Channel 📢', url='https://t.me/KOT_BOTS'),
             
         ],
     ]
